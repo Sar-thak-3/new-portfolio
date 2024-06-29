@@ -23,6 +23,7 @@ import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 import { faMedium } from "@fortawesome/free-brands-svg-icons/faMedium";
+import Experience from "../components/homepage/Experience";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -183,19 +184,19 @@ const Homepage = () => {
 
 							<div className="articles-container">
 								<div className="articles-wrapper">
-									{myArticles.map((article, index) => (
+									{INFO.experiences.map((exp, index) => (
 										<div
 											className="articles-article"
 											key={(index + 1).toString()}
 										>
-											<Article
+											<Experience
 												key={(index + 1).toString()}
-												date={article().date}
-												title={article().title}
+												date={exp.date}
+												title={exp.title}
 												description={
-													article().description
+													exp.description
 												}
-												link={article().link}
+												company={exp.company}
 											/>
 										</div>
 									))}

@@ -33,6 +33,29 @@ const INFO = {
 			"",
 	},
 
+	experiences: [
+		{
+			company: "Intelligent Edge Systems",
+			title: "Machine Learning Engineer",
+			date: "April 2024 - Present",
+			description: [
+				"Fine-tuned and utilized 6dof Pose models for RGBD image processing, optimizing object pose estimation.",
+				"Implemented model on Nvidia chip, eliminating reliance on costly actuators, thus affordable robotic solutions.",
+				"Utilized Omniverse tool to generate synthetic 3D data, aiding in the development and testing of novel objects."
+			]
+		},
+		{
+			company: "CSIR-CSIO",
+			title: "Research Internship",
+			date: "Jan 2024 - April 2024",
+			description: [
+				"Developed a healthcare Android app using Kotlin to simplify appointment booking and data management.",
+				"Unlike existing platforms, it enables direct hospital-user communication, offering hassle-free hospital visits.",
+				"Worked on terahertz imaging for early diabetic ulcer detection using Image Processing and ML models"
+			]
+		},
+	],
+
 	projects: [
 		{
 			title: "Extract",
