@@ -8,7 +8,6 @@ import {
 	faTwitter,
 	faGithub,
 	faStackOverflow,
-	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
