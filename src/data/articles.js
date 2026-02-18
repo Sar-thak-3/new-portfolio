@@ -62,6 +62,22 @@ function article_2() {
 	};
 }
 
-const myArticles = [article_1, article_2];
+function article_3() {
+	return {
+		date: "21 Jun 2025",
+		title: "Unlocking Tabular Data: A Novel Approach to Accurate Table Edge Detection in Images",
+		description: "This project introduces a fast, rule-based method to accurately detect table grids in images before applying OCR. It focuses on identifying clear and faint table edges using geometric techniques, ensuring structured data extraction. The approach is lightweight, highly accurate, and deployable locally without relying on LLMs or heavy computation.",
+		style: ``,
+		keywords: ["CNN", "Computer Vision", "OCR", "Filters", "Hough Transform"],
+		body: (
+			<React.Fragment>
+				<h1>Content of article 3</h1>
+			</React.Fragment>
+		),
+		link: "https://medium.com/@shibugarg0303/unlocking-tabular-data-a-novel-approach-to-accurate-table-edge-detection-in-images-6438df502879"
+	};
+}
+
+const myArticles = [article_3, article_1, article_2 ];
 
 export default myArticles;

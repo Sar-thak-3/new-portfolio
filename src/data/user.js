@@ -34,26 +34,46 @@ const INFO = {
 	},
 
 	experiences: [
-		{
-			company: "Intelligent Edge Systems",
-			title: "Machine Learning Engineer",
-			date: "April 2024 - Present",
-			description: [
-				"Fine-tuned and utilized 6dof Pose models for RGBD image processing, optimizing object pose estimation.",
-				"Implemented model on Nvidia chip, eliminating reliance on costly actuators, thus affordable robotic solutions.",
-				"Utilized Omniverse tool to generate synthetic 3D data, aiding in the development and testing of novel objects."
-			]
-		},
-		{
-			company: "CSIR-CSIO",
-			title: "Research Internship",
-			date: "Jan 2024 - April 2024",
-			description: [
-				"Developed a healthcare Android app using Kotlin to simplify appointment booking and data management.",
-				"Unlike existing platforms, it enables direct hospital-user communication, offering hassle-free hospital visits.",
-				"Worked on terahertz imaging for early diabetic ulcer detection using Image Processing and ML models"
-			]
-		},
+	    {
+	        company: "INDmoney",
+	        title: "Machine Learning Engineer",
+	        date: "Oct 2024 - Present",
+	        description: [
+	            { type: "header", text: "Vision: Generalized OCR Engine" },
+	            { type: "point", text: "Architected a high-precision OCR engine achieving 99.8% parsing accuracy and ~10ms latency for 5-page documents." },
+	            { type: "point", text: "Developed a no-code JSON configuration layer that reduced document onboarding time from days to under 30 minutes for non-developers." },
+	            { type: "header", text: "Account Aggregator (AA) Integration" },
+	            { type: "point", text: "Engineered a real-time ingestion pipeline for providers like Finvu and CAMS, utilizing L1/L2 caching to ensure 99.9% uptime." },
+	            { type: "point", text: "Optimized data-syncing layers to handle high-concurrency requests while maintaining strict schema consistency across financial microservices." },
+	            { type: "header", text: "Unified Data Aggregator & Scalability: TRACK" },
+	            { type: "point", text: "Built the core aggregation engine unifying OCR and AA streams into a dashboard with <15ms end-to-end latency." },
+	            { type: "point", text: "Implemented database sharding and worker orchestration to manage massive datasets without performance degradation during peak traffic." },
+	            { type: "header", text: "IND-Learn: Personalization & Ed-Tech" },
+	            { type: "point", text: "Developed the platform from scratch, featuring a proprietary persona-mapping engine based on Mixpanel event streams and investing behavior." },
+	            { type: "point", text: "Automated hyper-personalized ad delivery via optimized cron-based workflows, significantly increasing user conversion rates." }
+	        ]
+	    },
+	    {
+	        company: "Craftify AI",
+	        title: "Machine Learning Engineer",
+	        date: "April 2024 - Oct 2024",
+	        description: [
+	            { type: "header", text: "Robotic Vision & Pose Estimation" },
+	            { type: "point", text: "Fine-tuned 6DoF Pose models for RGBD image processing, significantly optimizing object pose estimation accuracy." },
+	            { type: "point", text: "Deployed models on NVIDIA edge chips to eliminate reliance on costly actuators, reducing hardware costs for robotic solutions." },
+	            { type: "point", text: "Utilized NVIDIA Omniverse to generate synthetic 3D data, accelerating the development and testing of novel object detection." }
+	        ]
+	    },
+	    {
+	        company: "CSIR-CSIO",
+	        title: "Research Internship",
+	        date: "Jan 2024 - April 2024",
+	        description: [
+	            { type: "point", text: "Developed ML models for early-stage diabetic ulcer detection using terahertz imaging and advanced image processing techniques." },
+	            { type: "point", text: "Built a Kotlin-based Android application to streamline hospital-user communication and appointment management." },
+	            { type: "point", text: "Implemented a direct-to-provider data management system to reduce friction in patient-hospital interactions." }
+	        ]
+	    }
 	],
 
 	projects: [
