@@ -5,7 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
-import image from "../components/images/20230703_132237.jpg"
+import image from "../components/images/codeforces-svgrepo-com.png"
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -55,7 +55,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src={image}
+											src="https://btechgeeks.com/wp-content/uploads/2021/07/What-is-atexit-function-and-can-we-call-it-more-than-once-in-a-C-program.png"
 											alt="about"
 											className="about-image"
 										/>

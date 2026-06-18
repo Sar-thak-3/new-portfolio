@@ -18,7 +18,7 @@ const INFO = {
 	homepage: {
 		title: "Machine Learning Engineer & Full Stack Software Engineer",
 		description:
-			"Hi there, I am Sarthak, a final-year student at Punjab Engineering College, Chandigarh, with majors in Electrical Engineering and minors in Computer Science. As a Machine Learning Engineer, I have garnered extensive experience through various projects and contributions to two firms in the field. Additionally, I developed an Android healthcare application using Kotlin and Jetpack Compose during an internship. My academic and practical experiences have equipped me with a robust skill set in both machine learning and software development..",
+			"Hi, I’m Sarthak! I'm a Software and Machine Learning Engineer in the fintech space, dedicated to revolutionizing how users interact with their financial data. By engineering high-end analytics, I provide native, end-to-end projections and predictive insights that give users complete clarity over their earnings and net worth.\nA final-year student at Punjab Engineering College, Chandigarh, majoring in Electrical Engineering with a minor in Computer Science, I bridge the gap between hardware intuition and software scale. My experience spans everything from core software engineering to advanced machine learning, specialized in leveraging AI to build next-generation AI systems.",
 	},
 
 	about: {
@@ -39,30 +39,35 @@ const INFO = {
 	        title: "Machine Learning Engineer",
 	        date: "Oct 2024 - Present",
 	        description: [
+	            { type: "header", text: "Core Financial Analytics & Wealth Intelligence" },
+	            { type: "point", text: "Engineered high-end financial analytics models running across a multi-asset ecosystem, processing user data for Indian Stocks, US Stocks, Mutual Funds, NPS, Bank Accounts, FDs, Loans, AIFs, and PMS to deliver a unified view of complete net worth." },
+	            { type: "point", text: "Developed predictive engines and projection workflows that provide traders and retail investors with advanced market-performance attribution, actionable insights, and native, end-to-end run numbers to deeply understand historical returns versus future wealth projections." },
+	            { type: "header", text: "Unified Data Aggregator & Scalability (TRACK & AA)" },
+	            { type: "point", text: "Built TRACK, the core data-aggregation engine that unifies diverse financial streams—including Account Aggregator (AA) networks and OCR outputs—into a centralized dashboard with <15ms end-to-end latency." },
+	            { type: "point", text: "Engineered a real-time ingestion pipeline integrating financial data providers like Finvu and CAMS, leveraging L1/L2 caching, database sharding, and worker orchestration to ensure 99.9% uptime and strict schema consistency during high-concurrency peak traffic." },
 	            { type: "header", text: "Vision: Generalized OCR Engine" },
-	            { type: "point", text: "Architected a high-precision OCR engine achieving 99.8% parsing accuracy and ~10ms latency for 5-page documents." },
-	            { type: "point", text: "Developed a no-code JSON configuration layer that reduced document onboarding time from days to under 30 minutes for non-developers." },
-	            { type: "header", text: "Account Aggregator (AA) Integration" },
-	            { type: "point", text: "Engineered a real-time ingestion pipeline for providers like Finvu and CAMS, utilizing L1/L2 caching to ensure 99.9% uptime." },
-	            { type: "point", text: "Optimized data-syncing layers to handle high-concurrency requests while maintaining strict schema consistency across financial microservices." },
-	            { type: "header", text: "Unified Data Aggregator & Scalability: TRACK" },
-	            { type: "point", text: "Built the core aggregation engine unifying OCR and AA streams into a dashboard with <15ms end-to-end latency." },
-	            { type: "point", text: "Implemented database sharding and worker orchestration to manage massive datasets without performance degradation during peak traffic." },
+	            { type: "point", text: "Architected a high-precision OCR/native engine achieving 99.8% parsing accuracy and ~10ms latency for multi-page financial documents, automating the ingestion of complex physical statements." },
+	            { type: "point", text: "Developed a no-code JSON configuration layer that operationalized the pipeline, reducing document onboarding time for non-developers from several days to under 30 minutes." },
 	            { type: "header", text: "IND-Learn: Personalization & Ed-Tech" },
-	            { type: "point", text: "Developed the platform from scratch, featuring a proprietary persona-mapping engine based on Mixpanel event streams and investing behavior." },
-	            { type: "point", text: "Automated hyper-personalized ad delivery via optimized cron-based workflows, significantly increasing user conversion rates." }
+	            { type: "point", text: "Developed a proprietary personalization platform from scratch, featuring a persona-mapping engine powered by Mixpanel event streams and user investing behavior." },
+	            { type: "point", text: "Automated hyper-personalized financial content and targeted ad delivery via optimized, cron-based workflows, substantially increasing user conversion and engagement rates." }
 	        ]
 	    },
 	    {
-	        company: "Craftify AI",
+	        company: "Craftif AI (Previously: Intelligent Edge Systems)",
 	        title: "Machine Learning Engineer",
 	        date: "April 2024 - Oct 2024",
 	        description: [
-	            { type: "header", text: "Robotic Vision & Pose Estimation" },
-	            { type: "point", text: "Fine-tuned 6DoF Pose models for RGBD image processing, significantly optimizing object pose estimation accuracy." },
-	            { type: "point", text: "Deployed models on NVIDIA edge chips to eliminate reliance on costly actuators, reducing hardware costs for robotic solutions." },
-	            { type: "point", text: "Utilized NVIDIA Omniverse to generate synthetic 3D data, accelerating the development and testing of novel object detection." }
-	        ]
+	            { type: "header", text: "Robotic Vision & 6DoF Spatial Intelligence" },
+	            { type: "point", text: "Fine-tuned and optimized 6DoF (6 Degrees of Freedom) Pose Estimation models for high-fidelity RGBD (Red, Green, Blue + Depth) image processing, significantly enhancing spatial orientation and object localization accuracy for robotic manipulation." },
+	            { type: "point", text: "Engineered custom deep learning architectures capable of extracting complex geometric features from noisy sensory data, drastically reducing mechanical positioning errors in real-world environments." },
+				{ type: "header", "text": "Edge Computing & Hardware Optimization"},
+				{ type: "point", text: "Successfully deployed and optimized heavy spatial-AI models onto resource-constrained NVIDIA edge computing chips (Jetson/Orin platforms), utilizing TensorRT quantization to maximize throughput." },
+				{ type: "point", text: "Eliminated the engineering dependency on costly high-precision physical actuators by solving alignment challenges purely through software and vision intelligence, cutting down hardware manufacturing overheads by a significant margin." },
+				{ type: "header", text: "Synthetic Data Engineering & Simulation (NVIDIA Omniverse)" },
+				{ type: "point", text: "Developed a synthetic data generation pipeline using NVIDIA Omniverse, creating diverse and realistic training datasets for 6DoF pose estimation, which improved model generalization across various real-world scenarios." },	
+				{ type: "point", text: "Accelerated the R&D lifecycle for novel object detection by bootstrapping training pipelines with millions of perfectly labeled synthetic data points, overcoming physical data collection bottlenecks and eliminating model bias." },	
+		    ]
 	    },
 	    {
 	        company: "CSIR-CSIO",
@@ -78,9 +83,16 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Autonomous Job Applicator",
+			description: "An end-to-end agentic system designed to scale job application throughput from 10 to 100s of applications with zero manual friction. It automates the entire funnel: finding relevant roles, personalizing resumes using contextual LLM reasoning, and navigating multi-step web forms via Playwright MCP and OpenClaw. Features a robust state-management framework that handles edge cases—like interactive UI roadblocks or login OTPs—by pausing and pinging the user via Telegram, allowing seamless human-in-the-loop intervention before resuming execution.",
+			points: ["Plot Twist: You might have landed on this portfolio because this exact project automatically applied to your job opening while I was asleep!"],
+			logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/openclaw-dark.png",
+			linkText: "View Project",
+			link: "https://srthak-job-filer.hf.space/overview",
+		},
+		{
 			title: "Extract",
-			description:
-				"This project has three key aspects: a cloud storage dashboard for students to store their notes in image form, parsing the textual data from these images to extract information and generate possible questions, and making the extracted textual data available globally, thus addressing browser inefficiencies in reading image data.",
+			description: "This project has three key aspects: a cloud storage dashboard for students to store their notes in image form, parsing the textual data from these images to extract information and generate possible questions, and making the extracted textual data available globally, thus addressing browser inefficiencies in reading image data.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/Sar-thak-3/Extract",
